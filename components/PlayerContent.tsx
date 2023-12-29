@@ -1,7 +1,8 @@
 "use client";
 
-import { useEffect, useState } from "react";
+//@ts-ignore
 import useSound from "use-sound";
+import { useEffect, useState } from "react";
 
 import { Song } from "@/types";
 import usePlayer from "@/hooks/usePlayer";
